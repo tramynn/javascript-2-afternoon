@@ -15,6 +15,12 @@
 */
 
 //Code here
+let me = {
+  name: "Tramy",
+  age: 24
+}
+
+alert(me.name);
 
 ////////// PROBLEM 2 //////////
 
@@ -24,6 +30,14 @@
 */
 
 //Code here
+let favoriteThings = {
+  band: "Blackpink",
+  food: "sushi",
+  person: "myself",
+  book: "The Power of Now",
+  movie: "Inspection",
+  holiday: "New Years"
+}
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
@@ -31,6 +45,8 @@
 */
 
 //Code here
+favoriteThings['car'] = "Tesla";
+favoriteThings.brand = "Tramy";
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -38,6 +54,8 @@
 */
 
 //Code here
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings['book'] = 'Harry Potter';
 
 ////////// PROBLEM 3 //////////
 
@@ -50,12 +68,17 @@
 */
 
 //Code here
+let backPack = {};
+var item = 'firstPocket';
+backPack['firstPocket'] = 'chapstick';
+backPack.color = 'pink';
 
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
+alert(backPack);
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -64,6 +87,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
+console.log(backPack);
 
 ////////// PROBLEM 4 //////////
 
@@ -85,6 +109,8 @@ var user2 = {
 */
 
 //Code Here
+user2.name = 'Bryan G. Smith';
+user2.email = 'bryan.smith@devmounta.in';
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
